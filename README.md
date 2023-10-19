@@ -28,3 +28,12 @@ curl http://localhost:8012/status
 ![image](https://github.com/molla202/Muon-Mainnet/assets/91562185/afe32338-ad35-4e0d-9ba7-5329dab48309)
 
 * Kalan işlemler panelden hallediliyor. panel hakkında grubdan yardım alabilirsiniz. `hayırlı olsun`
+
+### Yedek alma
+not: ana klasöründe backup.json dosyası oluşacak bunun yedeğini pcmize alalım.
+```
+docker exec -it muon-node ./node_modules/.bin/ts-node ./src/cmd/index.ts keys backup > backup.json
+```
+```
+cat backup.json
+```
