@@ -20,6 +20,10 @@ docker compose pull
 ```
 docker compose up -d
 ```
+yada olmassa
+```
+docker-compose up -d
+```
 ### Gerekli bilgileri alma
 Not: Biraz bekledikten sonra çıktı verecek kaydedin portalda lazım olacak.
 ```
